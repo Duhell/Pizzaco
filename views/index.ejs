@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<title>Pizza.co</title>
+</head>
+<body>
+
+<div id="preload"></div>
+
+	<header>
+		<nav>
+			<a href="/"><img src="images/logo.png"></a>
+			<ul>
+				<li><a href="/menu">Menu</a></li>
+				<li><a href="/about">About us</a></li>
+				<li><a href="/contact">Contacts</a></li>
+				<li><a href="/register"  id="sign-up">Sign up</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<img src="images/bg.jpg">
+		<div id="marketing-message">
+			<p id="topMessage"><strong>THE BEST</strong> place to <br><strong>SATISFY</strong> your <strong>TUMMY</strong></p>
+
+			<div id="marketing-price">
+				<p>FOR ONLY <span id="pesos">₱500.00</span></p>
+			</div>
+			<div id="order">
+				<button><img src="images/cart.png"> Order Now</button>
+			</div>
+		</div>
+
+		<form>
+			<h3>Login</h3>
+			<input type="email" placeholder="username">
+			<input type="password" placeholder="password">
+			<a href="#">Forgot Password?</a>
+			<button>SIGN IN</button>
+		</form>
+
+		<footer>
+		<div class="contactUs">
+			<span>Contact Us</span>
+			<div class="phone">
+				<img src="images/phone.png">
+				<span>09085901651</span>
+			</div>
+			<div class="mail">
+				<img src="images/mail.png">
+				<a href="#">ryanvillarma148@gmail.com</a>
+			</div>
+		</div>
+		<div class="disclaimer">
+			<a href="#">Disclaimer</a>
+			<a href="#">Privacy Policies</a>
+			<a href="#">Terms of Use</a>
+		</div>
+		<div class="aboutUs">
+			<a href="#">ABOUT US</a>
+			<a href="#">Our History</a>
+			<a href="#">Our Locations</a>
+		</div>
+		<div class="FAQ">
+			<a href="#">FAQ</a>
+			<a href="#">Send Feedback</a>
+		</div>
+		<div class="myAccount">
+			<span>My Account</span>
+			<a href="#">Sign up</a>
+			<a href="#">Sign in</a>
+		</div>
+		<div class="security">
+			<a href="#">Security</a>
+			<a href="#">Help Center</a>
+		</div>
+		<div class="socials">
+			<span>Social Links</span>
+			<div class="trends">
+				<a href="#"><img src="images/fb.png"></a>
+				<a href="#"><img src="images/instagram.png"></a>
+				<a href="#"><img src="images/twitter.png"></a>	
+			</div>
+		</div>
+		<a href="/"><img src="images/logo.png"></a>
+	</footer>
+	</main>
+
+<script>
+
+	const load = document.getElementById('preload');
+	window.addEventListener('load', function(){
+		load.style.display ="none"
+	})
+
+</script>
+
+</body>
+</html>
